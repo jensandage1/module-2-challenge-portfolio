@@ -45,7 +45,7 @@ main {
 
 aside {
     flex:1;
-    background-color: rgb(205, 255, 255);
+    background-color: rgb(186, 248, 228);
     border: solid white 5px;
     border-radius: 20px;
     margin: 1vh;
@@ -72,7 +72,7 @@ img {
 
 .portfolio {
     flex: 1;
-    background-color: rgb(255, 212, 254);
+    background-color: rgb(205, 255, 255);
     border: solid white 5px;
     border-radius: 20px;
     margin: 1vh;
@@ -90,4 +90,31 @@ p {
     font-size: 20px;
     text-decoration: underline;
     margin-left: 3vh;
+}
+
+.contact-info {
+    flex: 1;
+    background-color:rgb(174, 173, 230);
+    border: solid white 5px;
+    border-radius: 20px;
+    margin: 1vh;
+}
+
+h3 {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-left: 2rem;
+
+}
+
+footer {
+    flex: 1;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    
+    font-size: 25px;
 }
