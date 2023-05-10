@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(244, 221, 255);
+    border: solid white 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+nav {
+    padding: 10px;
+    background-color: lightblue;
+    border:solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex:1;
+    background-color: rgb(205, 255, 255);
+    border: solid white 5px;
+    border-radius: 20px;
+    margin: 1vh;
+
+}
+
+aside img {
+    margin-left: 10vh;
+}
+
+aside ul li{
+    list-style: square;
+    margin-left: 1rem;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+img {
+    border: solid white 5px;
+    border-radius: 25px;
+    margin-left: 3vh;
+
+}
+
+.portfolio {
+    flex: 1;
+    background-color: rgb(255, 212, 254);
+    border: solid white 5px;
+    border-radius: 20px;
+    margin: 1vh;
+    
+
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 2rem;
+}
+
+p {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 3vh;
+}
