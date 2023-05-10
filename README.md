@@ -1,6 +1,8 @@
 # module-2-challenge-portfolio
 Module 2 challenge creating a portfolio
 
+https://jensandage1.github.io/module-2-challenge-portfolio/
+
 ## Description 
 
 This is a portfolio for the author "Jen Sandage" It includes an about-me, portfolio, and contact-me sections all referring to the author. 
